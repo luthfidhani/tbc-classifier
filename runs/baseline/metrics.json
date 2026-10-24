@@ -1,0 +1,48 @@
+{
+  "threshold": 0.3127,
+  "val": {
+    "auc": 0.9966,
+    "sensitivity": 0.97,
+    "specificity": 0.9666,
+    "tp": 97,
+    "fn": 3,
+    "fp": 26,
+    "tn": 752
+  },
+  "test": {
+    "auc": 0.9966,
+    "sensitivity": 0.98,
+    "specificity": 0.9663,
+    "tp": 98,
+    "fn": 2,
+    "fp": 26,
+    "tn": 746
+  },
+  "external": {
+    "auc": 0.6039,
+    "sensitivity": 0.7684,
+    "specificity": 0.3717,
+    "tp": 209,
+    "fn": 63,
+    "fp": 191,
+    "tn": 113
+  },
+  "external/da+db": {
+    "auc": 0.6585,
+    "sensitivity": 0.473,
+    "specificity": 0.7255,
+    "tp": 35,
+    "fn": 39,
+    "fp": 28,
+    "tn": 74
+  },
+  "external/mc+shenzhen": {
+    "auc": 0.5651,
+    "sensitivity": 0.8788,
+    "specificity": 0.1931,
+    "tp": 174,
+    "fn": 24,
+    "fp": 163,
+    "tn": 39
+  }
+}
