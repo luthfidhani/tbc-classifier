@@ -7,7 +7,7 @@ A tuberculosis (TB vs non-TB) classifier for chest X-rays. It goes past "99% acc
 
 > ⚠️ This is a learning project, not a diagnostic tool. Do not use it for clinical decisions.
 
-**Interactive explainer (Bahasa Indonesia):** [`docs/index.html`](docs/index.html). It covers everything from pixels and CNNs to Grad-CAM, domain shift and bootstrap, with live demos built on this project's real predictions. It also lets you score your own X-ray: `B_xrv` runs in the browser via ONNX Runtime Web, and the image never leaves your device. The model and runtime binaries are gitignored; rebuild them with `docs/export_onnx.py` and `ort-wasm-simd.wasm` from `onnxruntime-web@1.17.3`. To view it locally, run `python3 -m http.server -d docs` and open http://localhost:8000.
+**Documentation / interactive explainer (Bahasa Indonesia):** https://playground.luthfidhani.my.id/2026-11-tbc-classifier. It covers everything from pixels and CNNs to Grad-CAM, domain shift and bootstrap, with live demos built on this project's real predictions. It also lets you score your own X-ray: `B_xrv` runs in the browser via ONNX Runtime Web, and the image never leaves your device.
 
 ## Key findings so far
 
@@ -118,7 +118,7 @@ These experiments were developed on a **MacBook Air M5 with 16 GB** (PyTorch MPS
 | `compare.py` | Cross-run table and paired bootstrap CIs |
 | `report.py` | Confusion matrices, ROC/PR curves, PPV/NPV/F1 per hospital at the val threshold |
 | `predict.py` | Score new X-rays and save Grad-CAM overlays |
-| `docs/` | Interactive explainer; `export_onnx.py` builds the in-browser model, `build_assets.py` the figures and data |
+| `docs/` | Source of the [explainer site](https://playground.luthfidhani.my.id/2026-11-tbc-classifier) (not in this repo) |
 | `experiments.sh` | Experiment queue |
 | `make_colab.py` | Generates Colab notebooks from the local scripts |
 
