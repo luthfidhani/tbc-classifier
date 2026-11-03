@@ -1,0 +1,30 @@
+{
+  "threshold": 0.1601,
+  "val": {
+    "auc": 0.9832,
+    "sensitivity": 0.97,
+    "specificity": 0.919,
+    "tp": 97,
+    "fn": 3,
+    "fp": 63,
+    "tn": 715
+  },
+  "test": {
+    "auc": 0.985,
+    "sensitivity": 0.96,
+    "specificity": 0.9184,
+    "tp": 96,
+    "fn": 4,
+    "fp": 63,
+    "tn": 709
+  },
+  "external": {
+    "auc": 0.7872,
+    "sensitivity": 0.8125,
+    "specificity": 0.5658,
+    "tp": 221,
+    "fn": 51,
+    "fp": 132,
+    "tn": 172
+  }
+}

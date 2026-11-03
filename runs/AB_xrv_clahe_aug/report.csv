@@ -1,0 +1,5 @@
+run,source,threshold,n,tp,fn,fp,tn,sensitivity,specificity,ppv,npv,f1,balanced_acc,auc,avg_precision
+AB_xrv_clahe_aug,TBX11K test,0.1601,872,96,4,63,709,0.96,0.9184,0.6038,0.9944,0.7413,0.9392,0.985,0.9355
+AB_xrv_clahe_aug,DA/DB,0.1601,176,56,18,30,72,0.7568,0.7059,0.6512,0.8,0.7,0.7313,0.8123,0.7838
+AB_xrv_clahe_aug,Montgomery,0.1601,73,18,13,13,29,0.5806,0.6905,0.5806,0.6905,0.5806,0.6356,0.679,0.5686
+AB_xrv_clahe_aug,Shenzhen,0.1601,327,147,20,89,71,0.8802,0.4437,0.6229,0.7802,0.7295,0.662,0.8017,0.84

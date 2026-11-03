@@ -14,3 +14,6 @@ data/
 runs/**/*.pt
 runs/**/train.log
 runs_*.zip
+
+# Write-up site: build output lives in ../playground/2026-11-tbc-classifier (rebuild: docs/build_assets.py, docs/export_onnx.py)
+docs/
